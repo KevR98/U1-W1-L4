@@ -1,11 +1,12 @@
 /* IMPOSTAZIONI GENERALI */
+
 body {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   background-image: url("../img/sfondo.png");
-  font-family: Poppins "Helvetica Neue", sans-serif;
+  font-family: Poppins, "Helvetica Neue", sans-serif;
 }
 /* HEADER */
 .box-header {
@@ -37,6 +38,7 @@ header div img {
   margin-bottom: 1.5em;
   background-color: white;
 }
+
 /* ELEMENTI NEL HEADER */
 #title {
   margin-top: 50px;
@@ -49,6 +51,10 @@ main h1 {
   font-size: 1.5em;
   font-weight: bold;
   margin-top: 10px;
+}
+
+strong {
+  color: #a02571;
 }
 
 h1 + p {
