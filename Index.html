@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pagina Web MockUp</title>
 
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link
@@ -25,10 +25,15 @@
   <body>
     <header class="box-header">
       <div>
-        <img src="./assets/img/logo.svg" style="height: 50px" />
+        <img
+          src="./assets/img/logo.svg"
+          alt="Immagine Logo"
+          width="250"
+          height="60"
+        />
       </div>
       <div id="title">
-        <p>Epicode - Il blog dei developers</p>
+        <p>EPICODE - IL BLOG DEI DEVELPERS</p>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Articoli</a></li>
@@ -38,9 +43,11 @@
     </header>
     <main class="box-main">
       <div>
-        <h2>Come creare un template per i post</h2>
-        <p>di Mario Rossi -</p>
-        <p>Pubblicato il 25-10-2020</p>
+        <h1>Come creare un template per i post</h1>
+        <p>
+          <i class="fas fa-pen-square"></i> di Mario Rossi -
+          <span><i class="fas fa-clock"></i> pubblicato il 25-10-2020</span>
+        </p>
         <p>
           La prima cosa da fare è suddividere in blocchi logici la pagina,
           identificando le <strong>parti comuni</strong> da applicare a tutte le
@@ -138,7 +145,7 @@
         allowfullscreen
       ></iframe>
       <div class="form">
-        <h2>Novità</h2>
+        <h2>NOVITÀ</h2>
         <p>
           Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
           nostra newsletter:
@@ -150,23 +157,25 @@
         </form>
       </div>
       <div class="articolo">
-        <h2>Articoli correlati</h2>
+        <h2>ARTICOLI CORRELATI</h2>
       </div>
-      <div class="testo-articolo1">
-        <p><a href="#">Validare il codice HTML</a></p>
-        <p>Categoria: develop</p>
-        <p>Data: 18-9-20</p>
-      </div>
-      <div class="testo-articolo2">
-        <p><a href="#">Correggere la sintassi</a></p>
-        <p>Categoria: develop</p>
-        <p>Data: 18-9-2020</p>
-      </div>
-      <div class="testo-articolo3">
-        <p><a href="#">Meno Kb nella pagina</a></p>
-        <p>Categoria: ottimizzazione</p>
-        <p>Data 30-9-202</p>
-      </div>
+      <article>
+        <div>
+          <p><a href="#">Validare il codice HTML</a></p>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <p><i class="fas fa-calendar-alt"></i> Data: 18-9-20</p>
+        </div>
+        <div>
+          <p><a href="#">Correggere la sintassi</a></p>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <p><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
+        </div>
+        <div>
+          <p><a href="#">Meno Kb nella pagina</a></p>
+          <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+          <p><i class="fas fa-calendar-alt"></i> Data 30-9-202</p>
+        </div>
+      </article>
     </main>
 
     <footer class="box-footer">
