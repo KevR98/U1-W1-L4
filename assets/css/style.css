@@ -1,0 +1,149 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-image: url("../img/sfondo.png");
+  font-family: Poppins;
+}
+/* HEADER */
+.box-header {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background-color: rgb(18, 125, 125);
+}
+
+header div img {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+/* MAIN */
+.box-main {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  margin-top: 30px;
+  background-color: white;
+  padding: 1em;
+}
+/* ELEMENTI NEL HEADER */
+#title {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+main h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+main ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+/* TABELLE */
+
+table {
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid rgba(25, 25, 232, 0.753);
+}
+
+tr:nth-child(1) {
+  background-color: rgba(25, 25, 232, 0.753);
+  color: white;
+}
+
+tr:nth-child(3) {
+  background-color: rgba(128, 128, 128, 0.249);
+}
+tr:nth-child(5) {
+  background-color: rgba(128, 128, 128, 0.249);
+}
+
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border-radius: 40px;
+  height: 300px;
+  width: 400px;
+}
+
+.articolo {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.testo-articolo1 {
+  background-color: rgba(128, 128, 128, 0.32);
+}
+
+p:nth-child(3) {
+  margin-left: 75%;
+}
+
+.testo-articolo2 {
+  background-color: rgba(128, 128, 128, 0.32);
+}
+
+.testo-articolo3 {
+  background-color: rgba(128, 128, 128, 0.32);
+}
+
+/* FORM */
+.form {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.32);
+}
+
+#mail {
+  margin-bottom: 1px solid;
+}
+
+button {
+  background-color: rgba(0, 51, 255, 0.741);
+  font-weight: bold;
+  color: white;
+}
+
+/* FOOTER */
+.box-footer {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background-color: rgb(18, 125, 125);
+}
