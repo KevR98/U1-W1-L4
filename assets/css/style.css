@@ -1,6 +1,6 @@
 /* IMPOSTAZIONI GENERALI */
 body {
-  max-width: 500px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -67,9 +67,7 @@ ol {
 /* TABELLE */
 
 table {
-  padding: 20px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
   border-bottom: 1px solid rgba(25, 25, 232, 0.753);
 }
 
@@ -83,6 +81,11 @@ tr:nth-child(3) {
 }
 tr:nth-child(5) {
   background-color: rgba(128, 128, 128, 0.249);
+}
+
+th,
+td {
+  padding: 20px;
 }
 
 caption {
@@ -124,7 +127,7 @@ iframe {
 }
 
 #mail {
-  margin-bottom: 1px solid;
+  margin-bottom: 1px dashed;
 }
 
 button {
